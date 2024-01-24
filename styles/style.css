@@ -128,9 +128,9 @@
 .card__title {
   padding: 5px 10px;
   font-family: inherit;
-  font-variation-settings: "wght" var(--font-weight-bold);
   font-size: 18px;
   line-height: normal;
+  font-variation-settings: "wght" var(--font-weight-bold);
 }
 
 .card__gallery {
