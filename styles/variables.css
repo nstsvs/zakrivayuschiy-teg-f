@@ -20,6 +20,10 @@
 }
 
 @media (width >= 376px) {
+	.header {
+		padding: 136px 14px 26px 14px;
+	}
+
 	.open-dialog-button {
 		grid-auto-flow: column;
 		align-items: center;

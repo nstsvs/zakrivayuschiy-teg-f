@@ -15,7 +15,7 @@
 
 .header {
   margin-block-start: 100px;
-  padding: 120px 14px 25px 14px;
+  padding: 123px 14px 23px 14px;
   box-shadow: inset 0px 0px 0px 2px currentColor;
   background-color: var(--background-color);
 }
@@ -48,7 +48,7 @@
 
 .theme-menu__list {
   display: grid;
-  gap: 14px;
+  gap: 12px;
   margin: 0 auto;
   padding-left: 20px;
   inline-size: max-content;
