@@ -15,7 +15,7 @@
 
 .header {
   margin-block-start: 100px;
-  padding: 123px 14px 23px 14px;
+  padding: 123px 0 23px 0;
   box-shadow: inset 0px 0px 0px 2px currentColor;
   background-color: var(--background-color);
 }
