@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+	--font-family-main: 'Inter', Arial, sans-serif;
+	--font-family-accent: 'PressStart2P', monospace;
+	--font-weight-light: 400;
+	--font-weight-bold: 700;
+	--background-color: #fff;
+	--accent-color: #000;
+	--repeating-gradient: #d3d3d3;
+	--linear-gradient: #e7e7e7 0.01%, #1a1a1a;
+	--heart-contour: #000;
+	--heart-fill: #ff0000;
+	--heart-fill-hover: #000;
+	--heart-sparks: #ff0000;
+	--blend-text-color: #fff;
+  --background-image:
+    repeating-linear-gradient(to right, var(--repeating-gradient) 0px 2px, transparent 0px 4px),
+    repeating-linear-gradient(to bottom, var(--repeating-gradient) 0px 2px, transparent 0px 4px),
+    linear-gradient(var(--linear-gradient));
+}
+
+@media (width >= 376px) {
+	.open-dialog-button {
+		grid-auto-flow: column;
+		align-items: center;
+	}
+
+	.dialog {
+		max-inline-size: 357px;
+	}
+}
