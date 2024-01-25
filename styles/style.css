@@ -236,7 +236,6 @@
   padding: 9px 17px;
   overflow: hidden;
   min-inline-size: 130px;
-  max-inline-size: 38px;
 }
 
 .card__like-button::before {
