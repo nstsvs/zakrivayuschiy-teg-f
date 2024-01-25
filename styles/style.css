@@ -120,7 +120,7 @@
   margin-block-start: 100px;
 }
 
-.section {
+.card {
   box-shadow: inset 0px 0px 0px 2px currentColor;
   background-color: var(--background-color);
 }
@@ -216,13 +216,13 @@
 .card__actions {
   display: flex;
   justify-content: flex-end;
-  gap: 4px;
+  gap: 7px;
 }
 
 .card__icon-button {
   border: none;
   padding: 0;
-  padding-top: 2px;
+  padding-top: 3px;
   background-color: transparent;
   cursor: pointer;
   max-block-size: 38px;
@@ -235,7 +235,7 @@
   align-items: center;
   padding: 9px 17px;
   overflow: hidden;
-  min-inline-size: 122px;
+  min-inline-size: 130px;
   max-inline-size: 38px;
 }
 
